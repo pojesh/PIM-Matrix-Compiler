@@ -91,6 +91,9 @@ clang++ -S -emit-llvm ../examples/matrix_mult.cpp -o matrix_mult.ll
 
 # View the generated ISA instructions
 cat matrix_mult.isa
+
+# Convert ISA to pPim ISA format from Research Paper
+./examples/isa_converter matrix_mult.isa matrix_mult_paper.isa
 ```
 
 ## ✨ Features

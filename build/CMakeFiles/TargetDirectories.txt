@@ -6,5 +6,6 @@
 /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/rebuild_cache.dir
 /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/matrix_mult.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/isa_converter.dir
 /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/rebuild_cache.dir

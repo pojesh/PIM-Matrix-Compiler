@@ -258,10 +258,10 @@ LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=LIBXML2_XMLLINT_EXECUTABLE-NOTFOUND
 LLVM_DIR:PATH=/usr/lib/llvm-18/cmake
 
 //Path to a file.
-LibEdit_INCLUDE_DIRS:PATH=LibEdit_INCLUDE_DIRS-NOTFOUND
+LibEdit_INCLUDE_DIRS:PATH=/usr/include
 
 //Path to a library.
-LibEdit_LIBRARIES:FILEPATH=LibEdit_LIBRARIES-NOTFOUND
+LibEdit_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libedit.so
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -461,6 +461,8 @@ FFI_STATIC_LIBRARIES-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_CURL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurl.so][/usr/include/x86_64-linux-gnu][c ][v8.5.0()]
 //Details about finding FFI
 FIND_PACKAGE_MESSAGE_DETAILS_FFI:INTERNAL=[/usr/lib/x86_64-linux-gnu/libffi.so][1][v()]
+//Details about finding LibEdit
+FIND_PACKAGE_MESSAGE_DETAILS_LibEdit:INTERNAL=[/usr/include][/usr/lib/x86_64-linux-gnu/libedit.so][v2.11()]
 //Details about finding LibXml2
 FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/usr/lib/x86_64-linux-gnu/libxml2.so][/usr/include/libxml2][v2.9.14()]
 //Details about finding Terminfo
@@ -476,6 +478,8 @@ HAVE_FFI_CALL:INTERNAL=1
 //ADVANCED property for variable: HAVE_FFI_H
 HAVE_FFI_H-ADVANCED:INTERNAL=1
 HAVE_FFI_H:INTERNAL=1
+//Have include histedit.h
+HAVE_HISTEDIT_H:INTERNAL=1
 //ADVANCED property for variable: LIBXML2_INCLUDE_DIR
 LIBXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: LIBXML2_LIBRARY

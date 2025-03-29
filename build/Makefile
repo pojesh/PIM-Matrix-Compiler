@@ -194,6 +194,19 @@ matrix_mult/fast:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/matrix_mult.dir/build.make examples/CMakeFiles/matrix_mult.dir/build
 .PHONY : matrix_mult/fast
 
+#=============================================================================
+# Target rules for targets named isa_converter
+
+# Build rule for target.
+isa_converter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 isa_converter
+.PHONY : isa_converter
+
+# fast build rule for target.
+isa_converter/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/isa_converter.dir/build.make examples/CMakeFiles/isa_converter.dir/build
+.PHONY : isa_converter/fast
+
 src/instruction_generator.o: src/instruction_generator.cpp.o
 .PHONY : src/instruction_generator.o
 
@@ -326,6 +339,7 @@ help:
 	@echo "... acc_gen"
 	@echo "... intrinsics_gen"
 	@echo "... omp_gen"
+	@echo "... isa_converter"
 	@echo "... matrix_mult"
 	@echo "... pim_compiler"
 	@echo "... src/instruction_generator.o"

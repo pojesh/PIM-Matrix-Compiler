@@ -154,4 +154,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RISCVTargetParserTableGen.dir/DependInfo.cmake"
   "CMakeFiles/pim_compiler.dir/DependInfo.cmake"
   "examples/CMakeFiles/matrix_mult.dir/DependInfo.cmake"
+  "examples/CMakeFiles/isa_converter.dir/DependInfo.cmake"
   )

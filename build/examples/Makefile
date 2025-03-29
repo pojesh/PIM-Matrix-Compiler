@@ -130,6 +130,44 @@ matrix_mult/fast:
 	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/matrix_mult.dir/build.make examples/CMakeFiles/matrix_mult.dir/build
 .PHONY : matrix_mult/fast
 
+# Convenience name for target.
+examples/CMakeFiles/isa_converter.dir/rule:
+	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/isa_converter.dir/rule
+.PHONY : examples/CMakeFiles/isa_converter.dir/rule
+
+# Convenience name for target.
+isa_converter: examples/CMakeFiles/isa_converter.dir/rule
+.PHONY : isa_converter
+
+# fast build rule for target.
+isa_converter/fast:
+	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/isa_converter.dir/build.make examples/CMakeFiles/isa_converter.dir/build
+.PHONY : isa_converter/fast
+
+__/src/isa_converter.o: __/src/isa_converter.cpp.o
+.PHONY : __/src/isa_converter.o
+
+# target to build an object file
+__/src/isa_converter.cpp.o:
+	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/isa_converter.dir/build.make examples/CMakeFiles/isa_converter.dir/__/src/isa_converter.cpp.o
+.PHONY : __/src/isa_converter.cpp.o
+
+__/src/isa_converter.i: __/src/isa_converter.cpp.i
+.PHONY : __/src/isa_converter.i
+
+# target to preprocess a source file
+__/src/isa_converter.cpp.i:
+	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/isa_converter.dir/build.make examples/CMakeFiles/isa_converter.dir/__/src/isa_converter.cpp.i
+.PHONY : __/src/isa_converter.cpp.i
+
+__/src/isa_converter.s: __/src/isa_converter.cpp.s
+.PHONY : __/src/isa_converter.s
+
+# target to generate assembly for a file
+__/src/isa_converter.cpp.s:
+	cd /mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/isa_converter.dir/build.make examples/CMakeFiles/isa_converter.dir/__/src/isa_converter.cpp.s
+.PHONY : __/src/isa_converter.cpp.s
+
 matrix_mult.o: matrix_mult.cpp.o
 .PHONY : matrix_mult.o
 
@@ -162,7 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... isa_converter"
 	@echo "... matrix_mult"
+	@echo "... __/src/isa_converter.o"
+	@echo "... __/src/isa_converter.i"
+	@echo "... __/src/isa_converter.s"
 	@echo "... matrix_mult.o"
 	@echo "... matrix_mult.i"
 	@echo "... matrix_mult.s"
