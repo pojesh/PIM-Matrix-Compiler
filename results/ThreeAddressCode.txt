@@ -6,13 +6,36 @@ STORE t2 to
 t4 = LOAD
 t5 = LOAD
 t6 = LOAD
-t7 = LOAD
+t7 =  +
 t8 = LOAD
-t9 =  + t8
+t9 = LOAD
 STORE t9 to
 t11 = LOAD
-t12 =  + t11
-STORE t12 to
+t12 = LOAD
+t13 =  *
+t14 = t12 + t13
+t15 = LOAD
+t16 = LOAD
+STORE t16 to
+t18 = LOAD
+t19 =  + t18
+STORE t19 to
+t21 = LOAD
+t22 =  + t21
+STORE t22 to
+STORE t23 to
+t25 = LOAD
+STORE t25 to
+t27 = LOAD
+t28 = LOAD
+t29 = LOAD
+t30 = LOAD
+t31 = LOAD
+t32 =  + t31
+STORE t32 to
+t34 = LOAD
+t35 =  + t34
+STORE t35 to
 C_0_0 = 0
 t_A_0_0 = LOAD A_0_0
 t_B_0_0 = LOAD B_0_0
