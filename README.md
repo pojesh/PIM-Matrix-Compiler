@@ -25,7 +25,7 @@ PIM-Matrix-Compiler/
 ├── results/                 
 │   ├── ThreeAddressCode.txt       # 3AC of the cpp program
 │   ├── ISA_Instructions_PaperFormat_24bit.txt       # ISA instructions in research paper format - 24bit
-│   └── ISA_Instructions.txt       # ISA instruction
+│   └── ISA_Instructions_CustomFormat.txt       # ISA instruction
 ├── documents/                 
 │   ├── LUT_Design.png        # LookUp Table Design Image
 │   ├── worflow.png           # Project Workflow Flowchart
