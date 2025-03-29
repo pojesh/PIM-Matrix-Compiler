@@ -29,6 +29,7 @@ PIM-Matrix-Compiler/
 ├── documents/                 
 │   ├── LUT_Design.png        # LookUp Table Design Image
 │   ├── worflow.png           # Project Workflow Flowchart
+│   ├── Research Paper        # PDF file of the reference research paper            
 │   └── report.pdf            # PDF document containing flowcharts
 ├── build/                    # Build directory (generated)
 └── CMakeLists.txt            # Main build configuration
@@ -94,7 +95,7 @@ clang++ -S -emit-llvm ../examples/matrix_mult.cpp -o matrix_mult.ll
 # View the generated ISA instructions
 cat matrix_mult.isa
 
-# Convert ISA to pPim ISA format from Research Paper
+# Convert ISA to ISA 24bit format from Research Paper
 ./examples/isa_converter matrix_mult.isa matrix_mult_paper.isa
 ```
 
