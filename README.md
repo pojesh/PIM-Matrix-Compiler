@@ -54,6 +54,9 @@ sudo apt install -y zlib1g-dev
 
 # Install other potentially needed dependencies
 sudo apt install -y libzstd-dev libcurl4-openssl-dev
+
+# Install LBEdit package
+sudo apt-get install libedit-dev
 ```
 
 ## ⚙️ Building and Running
