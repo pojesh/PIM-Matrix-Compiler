@@ -24,6 +24,10 @@ PIM-Matrix-Compiler/
 ├── results/                 
 │   ├── ThreeAddressCode.txt       # 3AC of the cpp program
 │   └── ISA_Instructions.txt       # ISA instruction set LUT
+├── documents/                 
+│   ├── LUT_Design.png        # LookUp Table Design Image
+│   ├── worflow.png           # Project Workflow Flowchart
+│   └── report.pdf            # PDF document containing flowcharts
 ├── build/                    # Build directory (generated)
 └── CMakeLists.txt            # Main build configuration
 ```
@@ -109,7 +113,7 @@ The generated instructions conform to the custom ISA, including opcodes for memo
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU GPL v3.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
