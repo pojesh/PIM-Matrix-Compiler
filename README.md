@@ -21,6 +21,9 @@ PIM-Matrix-Compiler/
 ├── examples/                 # Example matrix multiplication code
 │   ├── matrix_mult.cpp       # Matrix multiplication implementation
 │   └── CMakeLists.txt        # Build configuration for examples
+├── results/                 
+│   ├── ThreeAddressCode.txt       # 3AC of the cpp program
+│   └── ISA_Instructions.txt       # ISA instruction set LUT
 ├── build/                    # Build directory (generated)
 └── CMakeLists.txt            # Main build configuration
 ```
