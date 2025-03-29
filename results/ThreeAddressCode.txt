@@ -1,0 +1,194 @@
+Three-Address Code:
+STORE t18446744073709551615 to
+STORE t0 to
+t2 = LOAD
+STORE t2 to
+t4 = LOAD
+t5 = LOAD
+t6 = LOAD
+t7 = LOAD
+t8 = LOAD
+t9 =  + t8
+STORE t9 to
+t11 = LOAD
+t12 =  + t11
+STORE t12 to
+C_0_0 = 0
+t_A_0_0 = LOAD A_0_0
+t_B_0_0 = LOAD B_0_0
+t_mul_0_0_0 = t_A_0_0 * t_B_0_0
+t_C_0_0 = LOAD C_0_0
+t_C_new_0_0 = t_C_0_0 + t_mul_0_0_0
+STORE t_C_new_0_0 to C_0_0
+t_A_0_1 = LOAD A_0_1
+t_B_1_0 = LOAD B_1_0
+t_mul_0_0_1 = t_A_0_1 * t_B_1_0
+t_C_0_0 = LOAD C_0_0
+t_C_new_0_0 = t_C_0_0 + t_mul_0_0_1
+STORE t_C_new_0_0 to C_0_0
+t_A_0_2 = LOAD A_0_2
+t_B_2_0 = LOAD B_2_0
+t_mul_0_0_2 = t_A_0_2 * t_B_2_0
+t_C_0_0 = LOAD C_0_0
+t_C_new_0_0 = t_C_0_0 + t_mul_0_0_2
+STORE t_C_new_0_0 to C_0_0
+C_0_1 = 0
+t_A_0_0 = LOAD A_0_0
+t_B_0_1 = LOAD B_0_1
+t_mul_0_1_0 = t_A_0_0 * t_B_0_1
+t_C_0_1 = LOAD C_0_1
+t_C_new_0_1 = t_C_0_1 + t_mul_0_1_0
+STORE t_C_new_0_1 to C_0_1
+t_A_0_1 = LOAD A_0_1
+t_B_1_1 = LOAD B_1_1
+t_mul_0_1_1 = t_A_0_1 * t_B_1_1
+t_C_0_1 = LOAD C_0_1
+t_C_new_0_1 = t_C_0_1 + t_mul_0_1_1
+STORE t_C_new_0_1 to C_0_1
+t_A_0_2 = LOAD A_0_2
+t_B_2_1 = LOAD B_2_1
+t_mul_0_1_2 = t_A_0_2 * t_B_2_1
+t_C_0_1 = LOAD C_0_1
+t_C_new_0_1 = t_C_0_1 + t_mul_0_1_2
+STORE t_C_new_0_1 to C_0_1
+C_0_2 = 0
+t_A_0_0 = LOAD A_0_0
+t_B_0_2 = LOAD B_0_2
+t_mul_0_2_0 = t_A_0_0 * t_B_0_2
+t_C_0_2 = LOAD C_0_2
+t_C_new_0_2 = t_C_0_2 + t_mul_0_2_0
+STORE t_C_new_0_2 to C_0_2
+t_A_0_1 = LOAD A_0_1
+t_B_1_2 = LOAD B_1_2
+t_mul_0_2_1 = t_A_0_1 * t_B_1_2
+t_C_0_2 = LOAD C_0_2
+t_C_new_0_2 = t_C_0_2 + t_mul_0_2_1
+STORE t_C_new_0_2 to C_0_2
+t_A_0_2 = LOAD A_0_2
+t_B_2_2 = LOAD B_2_2
+t_mul_0_2_2 = t_A_0_2 * t_B_2_2
+t_C_0_2 = LOAD C_0_2
+t_C_new_0_2 = t_C_0_2 + t_mul_0_2_2
+STORE t_C_new_0_2 to C_0_2
+C_1_0 = 0
+t_A_1_0 = LOAD A_1_0
+t_B_0_0 = LOAD B_0_0
+t_mul_1_0_0 = t_A_1_0 * t_B_0_0
+t_C_1_0 = LOAD C_1_0
+t_C_new_1_0 = t_C_1_0 + t_mul_1_0_0
+STORE t_C_new_1_0 to C_1_0
+t_A_1_1 = LOAD A_1_1
+t_B_1_0 = LOAD B_1_0
+t_mul_1_0_1 = t_A_1_1 * t_B_1_0
+t_C_1_0 = LOAD C_1_0
+t_C_new_1_0 = t_C_1_0 + t_mul_1_0_1
+STORE t_C_new_1_0 to C_1_0
+t_A_1_2 = LOAD A_1_2
+t_B_2_0 = LOAD B_2_0
+t_mul_1_0_2 = t_A_1_2 * t_B_2_0
+t_C_1_0 = LOAD C_1_0
+t_C_new_1_0 = t_C_1_0 + t_mul_1_0_2
+STORE t_C_new_1_0 to C_1_0
+C_1_1 = 0
+t_A_1_0 = LOAD A_1_0
+t_B_0_1 = LOAD B_0_1
+t_mul_1_1_0 = t_A_1_0 * t_B_0_1
+t_C_1_1 = LOAD C_1_1
+t_C_new_1_1 = t_C_1_1 + t_mul_1_1_0
+STORE t_C_new_1_1 to C_1_1
+t_A_1_1 = LOAD A_1_1
+t_B_1_1 = LOAD B_1_1
+t_mul_1_1_1 = t_A_1_1 * t_B_1_1
+t_C_1_1 = LOAD C_1_1
+t_C_new_1_1 = t_C_1_1 + t_mul_1_1_1
+STORE t_C_new_1_1 to C_1_1
+t_A_1_2 = LOAD A_1_2
+t_B_2_1 = LOAD B_2_1
+t_mul_1_1_2 = t_A_1_2 * t_B_2_1
+t_C_1_1 = LOAD C_1_1
+t_C_new_1_1 = t_C_1_1 + t_mul_1_1_2
+STORE t_C_new_1_1 to C_1_1
+C_1_2 = 0
+t_A_1_0 = LOAD A_1_0
+t_B_0_2 = LOAD B_0_2
+t_mul_1_2_0 = t_A_1_0 * t_B_0_2
+t_C_1_2 = LOAD C_1_2
+t_C_new_1_2 = t_C_1_2 + t_mul_1_2_0
+STORE t_C_new_1_2 to C_1_2
+t_A_1_1 = LOAD A_1_1
+t_B_1_2 = LOAD B_1_2
+t_mul_1_2_1 = t_A_1_1 * t_B_1_2
+t_C_1_2 = LOAD C_1_2
+t_C_new_1_2 = t_C_1_2 + t_mul_1_2_1
+STORE t_C_new_1_2 to C_1_2
+t_A_1_2 = LOAD A_1_2
+t_B_2_2 = LOAD B_2_2
+t_mul_1_2_2 = t_A_1_2 * t_B_2_2
+t_C_1_2 = LOAD C_1_2
+t_C_new_1_2 = t_C_1_2 + t_mul_1_2_2
+STORE t_C_new_1_2 to C_1_2
+C_2_0 = 0
+t_A_2_0 = LOAD A_2_0
+t_B_0_0 = LOAD B_0_0
+t_mul_2_0_0 = t_A_2_0 * t_B_0_0
+t_C_2_0 = LOAD C_2_0
+t_C_new_2_0 = t_C_2_0 + t_mul_2_0_0
+STORE t_C_new_2_0 to C_2_0
+t_A_2_1 = LOAD A_2_1
+t_B_1_0 = LOAD B_1_0
+t_mul_2_0_1 = t_A_2_1 * t_B_1_0
+t_C_2_0 = LOAD C_2_0
+t_C_new_2_0 = t_C_2_0 + t_mul_2_0_1
+STORE t_C_new_2_0 to C_2_0
+t_A_2_2 = LOAD A_2_2
+t_B_2_0 = LOAD B_2_0
+t_mul_2_0_2 = t_A_2_2 * t_B_2_0
+t_C_2_0 = LOAD C_2_0
+t_C_new_2_0 = t_C_2_0 + t_mul_2_0_2
+STORE t_C_new_2_0 to C_2_0
+C_2_1 = 0
+t_A_2_0 = LOAD A_2_0
+t_B_0_1 = LOAD B_0_1
+t_mul_2_1_0 = t_A_2_0 * t_B_0_1
+t_C_2_1 = LOAD C_2_1
+t_C_new_2_1 = t_C_2_1 + t_mul_2_1_0
+STORE t_C_new_2_1 to C_2_1
+t_A_2_1 = LOAD A_2_1
+t_B_1_1 = LOAD B_1_1
+t_mul_2_1_1 = t_A_2_1 * t_B_1_1
+t_C_2_1 = LOAD C_2_1
+t_C_new_2_1 = t_C_2_1 + t_mul_2_1_1
+STORE t_C_new_2_1 to C_2_1
+t_A_2_2 = LOAD A_2_2
+t_B_2_1 = LOAD B_2_1
+t_mul_2_1_2 = t_A_2_2 * t_B_2_1
+t_C_2_1 = LOAD C_2_1
+t_C_new_2_1 = t_C_2_1 + t_mul_2_1_2
+STORE t_C_new_2_1 to C_2_1
+C_2_2 = 0
+t_A_2_0 = LOAD A_2_0
+t_B_0_2 = LOAD B_0_2
+t_mul_2_2_0 = t_A_2_0 * t_B_0_2
+t_C_2_2 = LOAD C_2_2
+t_C_new_2_2 = t_C_2_2 + t_mul_2_2_0
+STORE t_C_new_2_2 to C_2_2
+t_A_2_1 = LOAD A_2_1
+t_B_1_2 = LOAD B_1_2
+t_mul_2_2_1 = t_A_2_1 * t_B_1_2
+t_C_2_2 = LOAD C_2_2
+t_C_new_2_2 = t_C_2_2 + t_mul_2_2_1
+STORE t_C_new_2_2 to C_2_2
+t_A_2_2 = LOAD A_2_2
+t_B_2_2 = LOAD B_2_2
+t_mul_2_2_2 = t_A_2_2 * t_B_2_2
+t_C_2_2 = LOAD C_2_2
+t_C_new_2_2 = t_C_2_2 + t_mul_2_2_2
+STORE t_C_new_2_2 to C_2_2
+
+Identified Loops:
+Loop i: Nest Level = 0, Range = [0, 2], Parallelizable = Yes
+Loop j: Nest Level = 1, Range = [0, 2], Parallelizable = Yes
+Loop k: Nest Level = 2, Range = [0, 2], Parallelizable = No
+
+Generated 504 PIM ISA instructions.
+Instructions written to matrix_mult.isa

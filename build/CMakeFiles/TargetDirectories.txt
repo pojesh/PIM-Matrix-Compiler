@@ -1,0 +1,10 @@
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/intrinsics_gen.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/omp_gen.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/acc_gen.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/pim_compiler.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/matrix_mult.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pojesh/Documents/OfficialWorks/CompilerDA3/Documents/Working/build/examples/CMakeFiles/rebuild_cache.dir
