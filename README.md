@@ -30,7 +30,7 @@ PIM-Matrix-Compiler/
 │   ├── LUT_Design.png        # LookUp Table Design Image
 │   ├── worflow.png           # Project Workflow Flowchart
 │   ├── Research Paper        # PDF file of the reference research paper            
-│   └── report.pdf            # PDF document containing flowcharts
+│   └── Final_Report.pdf      # PDF document containing project report
 ├── build/                    # Build directory (generated)
 └── CMakeLists.txt            # Main build configuration
 ```
