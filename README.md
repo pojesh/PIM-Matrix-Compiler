@@ -55,7 +55,7 @@ sudo apt install -y llvm llvm-dev clang
 # Install ZLIB development package
 sudo apt install -y zlib1g-dev
 
-# Install other potentially needed dependencies
+# Install other needed dependencies
 sudo apt install -y libzstd-dev libcurl4-openssl-dev
 
 # Install LBEdit package
@@ -67,8 +67,9 @@ sudo apt-get install libedit-dev
 ### 🔨 Building the Project
 
 ```bash
+#NOTE: The repository already contains pre-built files, so skip to Compilation steps 
+
 # Create and navigate to the build directory
-mkdir -p build
 cd build
 
 # Configure with CMake
@@ -81,6 +82,8 @@ make
 ### 🚀 Running the Compiler
 
 ```bash
+# From build directory
+
 # Generate LLVM IR from the matrix multiplication example
 clang++ -S -emit-llvm ../examples/matrix_mult.cpp -o matrix_mult.ll
 
@@ -92,11 +95,14 @@ clang++ -S -emit-llvm ../examples/matrix_mult.cpp -o matrix_mult.ll
 
 # View the three-address code (displayed in terminal)
 
-# View the generated ISA instructions
+# View the 32bit ISA instructions
 cat matrix_mult.isa
 
 # Convert ISA to ISA 24bit format from Research Paper
 ./examples/isa_converter matrix_mult.isa matrix_mult_paper.isa
+
+# View the 24bit ISA instructions
+cat matrix_mult_paper.isa
 ```
 
 ## ✨ Features
