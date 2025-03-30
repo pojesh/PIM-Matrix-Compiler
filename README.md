@@ -2,6 +2,9 @@
 
 A specialized compiler that translates C++ matrix multiplication code into custom ISA instructions for DRAM-based Processing-in-Memory (PIM) architecture. This project implements a complete toolchain that analyzes matrix operations, identifies parallelizable loops, maps data to DRAM rows, and generates optimized instructions for LUT-based PIM execution.
 
+This compiler generates a ThreeAddressCode (TAC) representation of the input matrix multiplication code, which is then used to generate the 32bit ISA instructions for the PIM architecture. Further the 32bit ISA instructions are converted to 24bit ISA instructions as discussed in attached research paper.
+Alternatively the 24bit ISA instructions can be generated directly from the TAC representation with slight modifications in the implementation.
+
 ## 📂 Directory Structure
 
 ```
